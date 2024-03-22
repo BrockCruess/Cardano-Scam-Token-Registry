@@ -1,4 +1,4 @@
-# Cardano Scam Token Registry
+# The Cardano Scam Token Registry
 
 Some closed-source wallets are building their own privately-managed and incomplete scam token registries of their own. They didn't bother reaching out to partner with the community-built `$sendscams` quarantine wallet that the community has been contributing to in order to track scam tokens since the start of their appearances.
 
