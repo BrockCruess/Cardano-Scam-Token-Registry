@@ -7,7 +7,7 @@ Their private registries lack many of the scam tokens that the community has alr
 Most importantly, any Cardano user can now contribute to the community-run **Scam Token Registry** simply by sending scam tokens from their wallet to `$sendscams` - no GitHub login or permissions required.
 
 ## How Does It Work?
-A bot is monitoring every incoming token to the `$sendscams` wallet address. The Asset ID of each token is appended hashed-out to the `scam-token-list` file in the GitHub repo. Already existing token Asset IDs are ignored. Contributors to the GitHub repo will review newly appended token Asset IDs to determine whether they're malicious or valid. Malicious tokens will be committed (hash mark removed). Pre-existing scam tokens in the wallet have been manually added.
+A bot monitors every incoming token to the `$sendscams` wallet address. The CIP-14 Asset Fingerprint of each token is appended hashed-out to the `scam-token-list` file in the GitHub repo. Already existing token asset fingerprints are ignored. Contributors to the GitHub repo can then review newly appended token asset fingerprints to determine whether they're malicious or valid. Malicious tokens are committed (hash mark removed). Scam tokens that were sent to the the wallet before the bot was created were manually added.
 
 ## Community Helps Community
 Anyone in the community can use this registry to create their own scam token detection tool. Wallets can use it to create a warning feature for scam tokens. Marketplaces can use it to filter out scam tokens entirely from their platform.
