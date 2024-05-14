@@ -2,9 +2,9 @@
 
 <img align="right" src="https://i.imgur.com/wnXIsuX.jpeg" width="300">
 
-Some closed-source wallets are building their own privately-managed and incomplete scam token registries of their own. They didn't bother reaching out to partner with the community-built `$sendscams` quarantine wallet that the community has been contributing to in order to track scam tokens since the start of their appearances.
+The Cardano Community has been contributing scam tokens to `$sendscams` since the start of their appearances on the network to create a central point where all scam tokens are sent to and kept track of. This community-driven effort is far more efficient than private, proprietary registries that some wallets have opted to create for themselves. Their private registries are typically missing many of the tokens that the community has already discovered and submitted to `sendscams`.
 
-Their private registries lack many of the scam tokens that the community has already quarantined in `$sendscams`. To ensure the community has a complete registry that is moderated by the community themselves, the **Cardano Scam Token Registry** has been created. Any active community members (that could be you!) may reach out to become a github contributor and help moderate the submitted tokens.
+To ensure the community has a complete registry that is moderated by the community themselves, the **Cardano Scam Token Registry** has been created. Any active community members (that could be you!) may reach out to become a GitHub contributor and help moderate the submitted tokens.
 
 Most importantly, any Cardano user can now contribute to the community-run **Scam Token Registry** simply by sending scam tokens from their wallet to `$sendscams` - no GitHub login or permissions required.
 
