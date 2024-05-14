@@ -13,4 +13,4 @@ A bot monitors every incoming token to the `$sendscams` wallet address. The CIP-
 Anyone in the community can use this registry to create their own scam token detection tool. Wallets can use it to create a warning feature for scam tokens. Marketplaces can use it to filter out scam tokens entirely from their platform.
 
 ## Become a Contributor
-If anyone would like to contribute please reach out to @BrockCardano on Twitter, if you're an active community member you can help moderate token submissions.
+If anyone would like to contribute please join the [Community Review Discord server](https://discord.gg/hqwvvR6KpM), if you're an active community member you can help moderate token submissions.
