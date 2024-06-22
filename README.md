@@ -21,22 +21,22 @@ Anyone in the community can use this registry to create their own scam token det
 >
 >url = "https://raw.githubusercontent.com/BrockCruess/Cardano-Scam-Token-Registry/main/scam-token-list"
 >
->async def check_token(token):
+>async def check_token(assetid):
 >    async with aiohttp.ClientSession() as session:
 >        async with session.get(url) as response:
 >            if response.status == 200:
 >                data = await response.text()
 >                scam_tokens = [line.strip() for line in data.split("\n") if line.strip() and not line.startswith("#")]
->                if token in scam_tokens:
->                    print(f"{token} is flagged as a known malicious token.")
+>                if assetid in scam_tokens:
+>                    print(f"{assetid} is flagged as a known malicious token.")
 >                else:
->                    print(f"{token} is not flagged as a known malicious token.")
+>                    print(f"{assetid} is not flagged as a known malicious token.")
 >            else:
 >                print("Failed to retrieve the Cardano Scam Token Registry list.")
 >
 ># Example usage
 >token = "asset12345example"
->await check_token(token)
+>await check_token(assetid)
 >```
 
 ## Become a Contributor
